@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/pdf_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/arrow_left"
+                android:layout_width="@dimen/large_brush"
+                android:layout_height="@dimen/large_brush"
+                android:src="@drawable/ic_arrow_left" />
+
+            <ImageButton
+                android:id="@+id/arrow_right"
+                android:layout_width="@dimen/large_brush"
+                android:layout_height="@dimen/large_brush"
+                android:src="@drawable/ic_arrow_right" />
+
+            <EditText
+                android:id="@+id/page_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_number"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/renderer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/page_renderer" />
+
+            <EditText
+                android:id="@+id/pdf_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_pdf_file_name" />
+
+            <Button
+                android:id="@+id/get_pdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_pdf" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="org.uni.jain.illuxplain.ProfileActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12" >
+
+        <LinearLayout
+            android:id="@+id/scroll_child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/username"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_profile"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <TextView
+                    android:id="@+id/edit_username"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/age"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/age"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <EditText
+                    android:id="@+id/edit_age"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/gender"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <EditText
+                    android:id="@+id/edit_gender"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/education"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/education"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <EditText
+                    android:id="@+id/edit_education"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/work"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/work"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <EditText
+                    android:id="@+id/edit_work"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/professional"
+                    style="@style/ProfileTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/professional_life"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+
+                <EditText
+                    android:id="@+id/edit_professional"
+                    style="@style/ProfileTextStyle.Answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/test_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/save_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="saveChanges"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/discard_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="discardChanges"
+            android:text="@string/discard" />
+    </LinearLayout>
+
+</LinearLayout>

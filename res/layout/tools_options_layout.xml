@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/drawing_tools_options"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:src="@drawable/ic_drawing_tools" />
+
+    <ImageButton
+        android:id="@+id/objects_tools_options"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:src="@drawable/ic_objects_tools" />
+
+    <ImageButton
+        android:id="@+id/features_tools_options"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:src="@drawable/ic_features" />
+
+    <ImageButton
+        android:id="@+id/pdf_tools_options"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:src="@drawable/ic_file_pdf" />
+
+</LinearLayout>

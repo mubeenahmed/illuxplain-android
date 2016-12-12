@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.uni.jain.illuxplain"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.sip.voip"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBar" >
+
+        <activity
+            android:name="illuxplain.illuxplaincomponent.ChatApplicationActivity"
+            android:label="@string/ongoingcall" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.WelcomeScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.HomeFragment"
+            android:label="@string/title_activity_home_fragment" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.ProfileFragment"
+            android:label="@string/title_activity_profile_fragment" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.canvas.CanvasActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+             
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="org.uni.email.illuxplain.EmailAndReportActivity"
+            android:label="@string/title_activity_email_and_report" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.canvas.TakePicture"
+            android:label="@string/title_take_picture" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.services.FullScreenDisplayActivity"
+            android:label="@string/title_full_screen" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.InboxActivity"
+            android:label="@string/title_activity_inbox" >
+        </activity>
+        <activity
+            android:name="org.uni.illuxplain.welcomescreen.services.ProfileUpdate"
+            android:label="@string/title_activity_profile_update" >
+        </activity>
+        
+        <activity android:name="org.uni.illuxplain.opentok.MultipartyActivity"
+            android:label="@string/title_activity_canvas"
+            ></activity>
+    </application>
+
+</manifest>

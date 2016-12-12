@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/start_new"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:contentDescription="@string/start_new"
+        android:src="@drawable/ic_new_canvas" />
+
+    <ImageButton
+        android:id="@+id/save_canvas"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:contentDescription="@string/save"
+        android:src="@drawable/ic_save" />
+
+    <ImageButton
+        android:id="@+id/take_camera"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:contentDescription="@string/camera"
+        android:src="@drawable/ic_camera" />
+
+
+</LinearLayout>

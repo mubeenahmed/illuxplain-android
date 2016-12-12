@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Illuxplain</string>
+    <string name="login_screen">Login Screen!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_full_screen">Profile Picture</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="birthday">BirthDay</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="call_test">Call Testing</string>
+    <string name="inbox">Inbox</string>
+    <string name="notification">Notification</string>
+    <string name="friends_list">Friends</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_home_fragment">HomeFragment</string>
+    <string name="title_activity_profile_fragment">ProfileFragment</string>
+    <string name="title_take_picture">Take Picture</string>
+    <string name="create_chat">Create Your Session</string>
+    <string name="title_activity_canvas">CanvasActivity</string>
+    <string name="register_screen">Register YourSelf</string>
+    <string name="date_setter">--/--/----</string>
+    <string name="change_profile"></string>
+
+    <!-- Canvas Features Objects -->
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="marker">Marker</string>
+    <string name="liner">Liner</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="title_activity_email_and_report">EmailAndReportActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="camera">Camera</string>
+
+    <!-- Report and Email Activity -->
+    <string name="resend_email">Resend Email</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="code_here">CODE HERE</string>
+
+    <!-- Menu Bar Option -->
+    <string name="add_friends">Add Friends</string>
+    <string name="messages">Messages</string>
+    <string name="show_participants">Show Participants</string>
+    <string name="file_transfer">Share File</string>
+    <string name="settings">Setting </string>
+    <string name="end_session">Exit</string>
+    <string name="send_message">Send</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <!-- Profile Viewing Texts -->
+    <string name="username_profile">Username</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="education">Education</string>
+    <string name="work">Work</string>
+    <string name="professional_life">Professional Life</string>
+
+    <!-- String for Camera Activities -->
+    <string name="taken_picture">Taken Picture</string>
+    <string name="share">Share With Other</string>
+    <string name="donot_share">Cancel</string>
+    <string name="save_only">Save Only</string>
+
+    <!-- Group Chat -->
+    <string name="add_group_users">Add Users</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="add">ADD</string>
+    <string name="ok">OK</string>
+    <string name="add_parti">Add User</string>
+    <string name="create_session">Create Session</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+    <string name="kick">Kick User</string>
+    <string name="enter_pdf_file_name">PDF FILENAME</string>
+
+    <!-- Inbox Page -->
+    <string name="create_message">Create Message</string>
+    <string name="to">To:</string>
+    <string name="message">Enter Message</string>
+    <string name="title_activity_profile_update">ProfileUpdate</string>
+    <string name="discard">Discard</string>
+    <string name="your_message">Your Message</string>
+    <string name="your_message_button">Send</string>
+    
+    <!-- Voice Chat Application -->
+    
+     <string name="component_name">Voice/Video </string>
+    <string name="menu_settings">Settings</string>
+    <string name="helloworld">Hello World</string>
+    <string name="helloworldui">UI Controls</string>
+    <string name="helloworldcapturer">Custom Capturer</string>
+    <string name="helloworldrenderer">Custom Renderer</string>
+    <string name="helloworldsubclassing">Multiparty</string>
+    <string name="voinceonly">Voice Only</string>
+    <string name="audiodevice">Audio device</string>
+    <string name="helloworldemulator">Emulator Hello World</string>
+    <string name="screensharing">Screen Sharing</string>
+    
+    <string name="swapStr">Swap camera</string>
+    <string name="endCall1">End call</string>
+    <string name="endCall2">End</string>
+    <string name="audioOnly">Audio only</string>
+    <string name="send">Send</string>
+    <string name="archivingOn">Archiving on</string>
+    <string name="archivingOff">Archiving off</string>
+    <string name="ongoingcall">Ongoing call</string>
+    <string name="clearNotificationService">Clear Notification</string>
+    
+    <!-- IDS for Images tags -->
+    <string name="building_image">building image id</string>
+    <string name = "page_renderer">Render Page</string>
+    <string name="get_pdf">Select Pdf</string>
+    <string name="enter_number">Page Number</string>
+
+</resources>

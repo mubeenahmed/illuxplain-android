@@ -1,0 +1,34 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/CustomStyle</item>
+        <item name="actionBarStyle">@style/CustomStyle</item>
+    </style>
+
+    <style name="CustomStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ic_actionbar_background</item>
+        <item name="background">@drawable/ic_actionbar_background</item>
+        <item name="android:textAppearance">@style/CustomStyle.TextAppearance</item>
+    </style>
+
+    <style name="CustomStyle.TextAppearance">
+        <item name="android:textColor">@color/deep_sky_blue</item>
+        <item name="android:textSize">@dimen/action_bar_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProfileTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/action_bar_font_size</item>
+        <item name="android:background">@color/deep_sky_blue</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="ProfileTextStyle.Answer">
+        <item name="android:textColor">@color/deep_sky_blue</item>
+        <item name="android:textSize">@dimen/action_bar_font_size</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.uni.illuxplain.WelcomeScreen" >
+
+    <item 
+        android:id="@+id/index_message"
+        android:title="@string/inbox"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="always"/>
+    
+    <item android:id="@+id/notifications"
+        android:title="@string/notification"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="always"
+        />
+    
+    <item 
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:showAsAction="collapseActionView"
+        />
+    <item 
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        android:showAsAction="collapseActionView"
+        />
+    
+      <item 
+        android:id="@+id/alert_message"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_alert_message"
+        android:showAsAction="never"
+        />
+    
+
+</menu>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.uni.jain.illuxplain.CanvasActivity" >
+    
+    <item
+        android:id="@+id/show_participants"
+        android:orderInCategory="100"
+        android:title="@string/show_participants"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/file_transfer"
+        android:orderInCategory="100"
+        android:title="@string/file_transfer"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+
+</menu>

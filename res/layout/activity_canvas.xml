@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <org.uni.illuxplain.canvas.SurfaceViewCanvas
+        android:id="@+id/surface_view_canvas"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF" />
+
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/green"
+    android:text="@string/title_activity_canvas" >
+ 
+      <ImageButton
+            android:id="@+id/show_tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_option_arrow"
+            android:onClick="onOptionToolsClicked" />
+      
+       <ImageButton
+            android:id="@+id/incoming_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_conversation"
+            android:onClick="onIncomingMessage" />
+       
+       
+    <ImageButton
+        android:id="@+id/connected_users"
+        android:layout_width="@dimen/large_brush"
+        android:layout_height="@dimen/large_brush"
+        android:onClick="onVideoAudioDialog"
+        android:src="@drawable/ic_connected_users" />
+            
+</android.support.v7.widget.Toolbar>
+
+</LinearLayout>
