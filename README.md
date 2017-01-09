@@ -1,4 +1,7 @@
 # illuxplain-android
+
+Deprecated
+
 This is final year project for android application. 
 
 Login to application
